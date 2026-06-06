@@ -4,6 +4,8 @@ Custom build with extra features. Source kept private; this public repo only hos
 
 ## Changelog
 
+<!--NEW-->
+
 ### v1.1.7
 - Rank tier / map / game-mode names follow system language (were forced Chinese)
 
