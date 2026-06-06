@@ -2,5 +2,14 @@
 
 Custom build with extra features. Source kept private; this public repo only hosts compiled releases (in-app updater download source).
 
-- Lobby: shows party/teammate stats + recent win rate (any member count)
-- Rank tier & game mode names now follow system language
+## Changelog
+
+### v1.1.7
+- Rank tier / map / game-mode names follow system language (were forced Chinese)
+
+### v1.1.6
+- Lobby panel shows stats for any member count (including solo)
+- Live refresh when lobby members join / leave
+
+### v1.1.5
+- Lobby: show party/teammate recent matches + recent win rate in the game-info panel (#310)
