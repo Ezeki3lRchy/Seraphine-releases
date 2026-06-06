@@ -1,5 +1,6 @@
-# Seraphine
+# Seraphine (private build)
 
-私有构建。本仓库仅存放编译发布包(应用内自更新下载源),源码保持私有。
+Custom build with extra features. Source kept private; this public repo only hosts compiled releases (in-app updater download source).
 
-- v1.1.5: 组队大厅显示队友战绩 + 近期胜率
+- Lobby: shows party/teammate stats + recent win rate (any member count)
+- Rank tier & game mode names now follow system language
