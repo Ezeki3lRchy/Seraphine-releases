@@ -6,6 +6,11 @@ Custom build with extra features. Source kept private; this public repo only hos
 
 <!--NEW-->
 
+### v1.1.8
+- Auto empty-ban: ban no champion on your ban turn (the "None" option)
+- Open game detail when clicking a card in the game-info panel
+- Surface detail load failures instead of a silent blank
+
 ### v1.1.7
 - Rank tier / map / game-mode names follow system language (were forced Chinese)
 
