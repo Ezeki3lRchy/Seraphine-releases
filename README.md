@@ -11,6 +11,8 @@
 
 <p align="center">
   <a href="https://github.com/Ezeki3lRchy/Seraphine-releases/releases/latest"><b>⬇️ 下载最新版 / Download the latest release</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/Ezeki3lRchy/Seraphine"><b>📦 源码 / Source code</b></a>
 </p>
 
 ---
@@ -18,10 +20,10 @@
 ## 这个仓库是什么 / What this repo is
 
 本仓库只托管 **Seraphine 跨平台分支**编译好的安装包，并作为应用内更新器的下载源。
-源码仓库为私有；功能、问题反馈与说明见下方。
+源码开源在 [Ezeki3lRchy/Seraphine](https://github.com/Ezeki3lRchy/Seraphine)（GPL-3.0）；功能、问题反馈与说明见下方。
 
 This repo hosts only the **compiled installers** of the Seraphine cross-platform fork and serves as the download source for the in-app updater.
-The source repository is private; features, issue reporting and notes are below.
+The source code is open at [Ezeki3lRchy/Seraphine](https://github.com/Ezeki3lRchy/Seraphine) (GPL-3.0); features, issue reporting and notes are below.
 
 Seraphine 是 [Zzaphkiel/Seraphine](https://github.com/Zzaphkiel/Seraphine) 的跨平台分支：在保留原版全部功能的基础上，将界面从 PyQt5 迁移到 PySide6，并新增原生 macOS 支持。
 
