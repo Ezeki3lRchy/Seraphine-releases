@@ -8,12 +8,12 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Ezeki3lRchy/Seraphine-releases/releases/latest"><img src="https://img.shields.io/github/v/release/Ezeki3lRchy/Seraphine-releases?style=flat&label=Latest" alt="Latest release"></a>
-  <a href="https://github.com/Ezeki3lRchy/Seraphine-releases/releases"><img src="https://img.shields.io/github/downloads/Ezeki3lRchy/Seraphine-releases/total?style=flat&label=Downloads" alt="Downloads"></a>
+  <a href="https://github.com/Ezeki3lRchy/Seraphine/releases/latest"><img src="https://img.shields.io/github/v/release/Ezeki3lRchy/Seraphine?style=flat&label=Latest" alt="Latest release"></a>
+  <a href="https://github.com/Ezeki3lRchy/Seraphine/releases"><img src="https://img.shields.io/github/downloads/Ezeki3lRchy/Seraphine/total?style=flat&label=Downloads" alt="Downloads"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Ezeki3lRchy/Seraphine-releases/releases/latest"><b>⬇️ Download the latest release</b></a>
+  <a href="https://github.com/Ezeki3lRchy/Seraphine/releases/latest"><b>⬇️ Download the latest release</b></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/Ezeki3lRchy/Seraphine"><b>📦 Source code</b></a>
 </p>
@@ -22,14 +22,14 @@
 
 ## What this repo is
 
-This repo hosts only the **compiled installers** of the Seraphine cross-platform fork and serves as the download source for the in-app updater.
+This repository archives older Seraphine builds. Current Windows and macOS packages are published in the [main repository](https://github.com/Ezeki3lRchy/Seraphine/releases/latest).
 The source code is open at [Ezeki3lRchy/Seraphine](https://github.com/Ezeki3lRchy/Seraphine) (GPL-3.0); features, issue reporting and notes are below.
 
 Seraphine is a cross-platform fork of [Zzaphkiel/Seraphine](https://github.com/Zzaphkiel/Seraphine): all upstream features are kept, the UI was migrated from PyQt5 to PySide6, and native macOS support was added.
 
 ## Download & install
 
-Open the [latest release](https://github.com/Ezeki3lRchy/Seraphine-releases/releases/latest) and download the installer for your platform from **Assets**.
+Open the [latest release](https://github.com/Ezeki3lRchy/Seraphine/releases/latest) and download the installer for your platform from **Assets**.
 
 | Platform | Asset | How to use |
 |------|--------|----------|
@@ -55,12 +55,13 @@ Open the [latest release](https://github.com/Ezeki3lRchy/Seraphine-releases/rele
 
 ## In-app updates
 
-On startup the app reads this repo's [latest release](https://github.com/Ezeki3lRchy/Seraphine-releases/releases/latest) and prompts for an update only when an asset for the current platform exists (`.dmg` on macOS, `.7z` on Windows).
-`document/ver.json` marks disabled versions; `document/notice.md` is the changelog and notice shown inside the app.
+The in-app updater checks [releases in the main repository](https://github.com/Ezeki3lRchy/Seraphine/releases/latest) for the package that matches your platform. With automatic downloads enabled, eligible updates download in the background and prompt you to restart when ready.
+
+On Windows, v1.4.5 and earlier cannot update in-app. Download a newer build manually once.
 
 ## Changelog
 
-The full changelog is in [document/notice.md](document/notice.md) and on each [release page](https://github.com/Ezeki3lRchy/Seraphine-releases/releases).
+See the [main repository’s release notes](https://github.com/Ezeki3lRchy/Seraphine/releases) for current changes, or [archived releases](https://github.com/Ezeki3lRchy/Seraphine-releases/releases) for older builds.
 
 ## Feedback
 
