@@ -8,12 +8,12 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Ezeki3lRchy/Seraphine-releases/releases/latest"><img src="https://img.shields.io/github/v/release/Ezeki3lRchy/Seraphine-releases?style=flat&label=Latest" alt="Latest release"></a>
-  <a href="https://github.com/Ezeki3lRchy/Seraphine-releases/releases"><img src="https://img.shields.io/github/downloads/Ezeki3lRchy/Seraphine-releases/total?style=flat&label=Downloads" alt="Downloads"></a>
+  <a href="https://github.com/Ezeki3lRchy/Seraphine/releases/latest"><img src="https://img.shields.io/github/v/release/Ezeki3lRchy/Seraphine?style=flat&label=Latest" alt="Latest release"></a>
+  <a href="https://github.com/Ezeki3lRchy/Seraphine/releases"><img src="https://img.shields.io/github/downloads/Ezeki3lRchy/Seraphine/total?style=flat&label=Downloads" alt="Downloads"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Ezeki3lRchy/Seraphine-releases/releases/latest"><b>⬇️ 下载最新版</b></a>
+  <a href="https://github.com/Ezeki3lRchy/Seraphine/releases/latest"><b>⬇️ 下载最新版</b></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/Ezeki3lRchy/Seraphine"><b>📦 源码</b></a>
 </p>
@@ -22,14 +22,14 @@
 
 ## 这个仓库是什么
 
-本仓库只托管 **Seraphine 跨平台分支**编译好的安装包，并作为应用内更新器的下载源。
+本仓库保留 Seraphine 的旧版安装包。最新版 Windows 和 macOS 安装包发布在[主仓库](https://github.com/Ezeki3lRchy/Seraphine/releases/latest)。
 源码开源在 [Ezeki3lRchy/Seraphine](https://github.com/Ezeki3lRchy/Seraphine)（GPL-3.0）；功能、问题反馈与说明见下方。
 
 Seraphine 是 [Zzaphkiel/Seraphine](https://github.com/Zzaphkiel/Seraphine) 的跨平台分支：在保留原版全部功能的基础上，将界面从 PyQt5 迁移到 PySide6，并新增原生 macOS 支持。
 
 ## 下载与安装
 
-进入 [最新发布页](https://github.com/Ezeki3lRchy/Seraphine-releases/releases/latest)，在 **Assets** 中下载对应平台的安装包。
+进入 [最新发布页](https://github.com/Ezeki3lRchy/Seraphine/releases/latest)，在 **Assets** 中下载对应平台的安装包。
 
 | 平台 | 安装包 | 使用方式 |
 |------|--------|----------|
@@ -55,12 +55,13 @@ Seraphine 是 [Zzaphkiel/Seraphine](https://github.com/Zzaphkiel/Seraphine) 的�
 
 ## 应用内更新
 
-应用启动时会读取本仓库的 [最新 release](https://github.com/Ezeki3lRchy/Seraphine-releases/releases/latest)，并只在存在当前平台对应安装包（macOS 取 `.dmg`，Windows 取 `.7z`）时提示更新。
-`document/ver.json` 用于标记被禁用的版本，`document/notice.md` 为应用内显示的更新日志与公告。
+应用内更新器会检查[主仓库发布页](https://github.com/Ezeki3lRchy/Seraphine/releases/latest)，并选取对应平台的安装包。启用自动下载后，符合条件的更新会在后台下载，准备好后提示重启。
+
+Windows 上的 v1.4.5 及更早版本无法在应用内更新，需要手动下载一次新版。
 
 ## 更新日志
 
-完整更新日志见 [document/notice.md](document/notice.md) 与各 [release 页面](https://github.com/Ezeki3lRchy/Seraphine-releases/releases)。
+最新更新见[主仓库发布说明](https://github.com/Ezeki3lRchy/Seraphine/releases)，旧版见[历史发布](https://github.com/Ezeki3lRchy/Seraphine-releases/releases)。
 
 ## 反馈
 
